@@ -1,5 +1,19 @@
-import csv
+# https://docs.python.org/3/library/csv.html#id3
+# Name	Username	Email
+#Roger Smith	rsmith	wigginsryan@yahoo.com
+#Michelle Beck	mlbeck	hcosta@hotmail.com
+#Ashley Barker	a_bark_x	a_bark_x@turner.com
+#Lynn Gonzales	goodmanjames	lynniegonz@hotmail.com
+#Jennifer Chase	chasej	jchase@ramirez.com
+#Charles Hoover	choover	choover89@yahoo.com
+#Adrian Evans	adevans	adevans98@yahoo.com
+#Susan Walter	susan82	swilliams@yahoo.com
+#Stephanie King	stephanieking	sking@morris-tyler.com
+#Erika Miller	jessica32	ejmiller79@yahoo.com
+
 import json
+import csv
+
 compromised_users= []
 
 with open('passwords.csv') as password_file:
